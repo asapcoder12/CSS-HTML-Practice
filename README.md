@@ -12,3 +12,4 @@ Tesla https://beautiful-naiad-360ea7.netlify.app/
 Webovio https://subtle-starburst-904748.netlify.app/
 YourMeal https://magenta-bienenstitch-e380c6.netlify.app/
 Elegance shop https://heartfelt-hamster-261f89.netlify.app/
+Barber https://jolly-kelpie-e62fdc.netlify.app
