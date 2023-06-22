@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest university</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur quas quisquam maxime porro
+                    consectetur maiores totam, fugiat saepe dolorum! Impedit, beatae. Autem odit tempora ullam odio fuga
+                    obcaecati vero eaque.
+                    Ex facilis officia, accusantium deserunt iste voluptatum alias maiores accusamus illum blanditiis
+                    optio. Eveniet, a quibusdam. Est illum reprehenderit eveniet ipsam laboriosam consectetur, id
+                    aspernatur? Aliquam iusto praesentium reiciendis excepturi!
+                </p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="img/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio earum quibusdam necessitatibus, consequatur
+            ipsa cum voluptatem quas<br>repudiandae illum nostrum enim perferendis ducimus delectus? Quis enim neque
+            dolore
+            tempora harum?
+        </p>
+        <div class="icons">
+            <i class="fa fa-brands fa-facebook-f"></i>
+            <i class="fa fa-brands fa-twitter"></i>
+            <i class="fa fa-brands fa-instagram"></i>
+            <i class="fa fa-brands fa-linkedin"></i>
+        </div>
+        <p>© 2023 EDUFORD UNIVERSITY</p>
+    </section>
+
+    <script>
+        let navLinks = document.querySelector("#navLinks");
+
+        function ShowMenu(params) {
+            navLinks.style.right = "0";
+        }
+
+        function HideMenu(params) {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
