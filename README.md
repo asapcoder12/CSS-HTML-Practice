@@ -1,4 +1,4 @@
-HOSTED ON netlify.com<br><br>
+HOSTED ON netlify.com
 
 Burning Man https://helpful-pudding-450f8c.netlify.app/<br>
 Car repair https://calm-twilight-e85cbc.netlify.app/<br>
